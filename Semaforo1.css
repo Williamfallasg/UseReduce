@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-color {
+    margin-right: 10px;
+    background-color: gray;
+  }
+  
+  .btn-color.selected {
+    background-color: red;
+  }
+  
+  .btn-color.selected.yellow {
+    background-color: yellow;
+  }
+  
+  .btn-color.selected.green {
+    background-color: green;
+  }
+  
+  .semaforo {
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+  }
+  
+  .bar {
+    width: 20px;
+    height: 80px;
+    background-color: black;
+    margin: auto;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+  }
+  
